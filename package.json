@@ -1,0 +1,25 @@
+{
+  "name": "shader-fundamentals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve"
+  },
+  "devDependencies": {
+    "@types/three": "^0.127.1",
+    "file-loader": "^6.2.0",
+    "glslify-loader": "^2.0.0",
+    "html-webpack-plugin": "^5.3.1",
+    "prettier": "^2.6.2",
+    "raw-loader": "^4.0.2",
+    "ts-loader": "^9.0.2",
+    "webpack": "^5.34.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "three": "^0.128.0",
+    "typescript": "^4.2.4"
+  }
+}
